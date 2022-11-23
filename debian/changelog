@@ -1,5 +1,6 @@
-widelands (1:19+repack-6widelands1) UNRELEASED; urgency=medium
+widelands (1.1) UNRELEASED; urgency=medium
 
+  [ Widelands ]
   * Changed build dependencies:
       - New build dependencies required:
         libboost-system-dev
@@ -36,7 +37,10 @@ widelands (1:19+repack-6widelands1) UNRELEASED; urgency=medium
     - Modified rules to use our embedded fonts and install all binaries.
     - Comment out get-orig-source. We just want to build current trunk
 
- -- Widelands <widelands-dev@lists.launchpad.net>  Sun, 25 Nov 2018 12:06:04 +0100
+  [ vitex ]
+  * Repack
+
+ -- vitex <info@vitexsoftware.cz>  Wed, 23 Nov 2022 16:07:04 +0100
 
 widelands (1:19+repack-6) unstable; urgency=medium
 
